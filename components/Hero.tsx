@@ -9,7 +9,7 @@ export default function Hero() {
         
         {/* Subtitle */}
         <h2 className="text-xl md:text-2xl text-gray-300 mb-8">
-          Full Stack Developer | Designer | Problem Solver
+          Data Analyst
         </h2>
         
         {/* Description */}
