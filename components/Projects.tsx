@@ -4,7 +4,7 @@ export default function Projects() {
       title: 'Geek Connekt',
       description: 'A full-stack e-commerce solution built with React and Node.js',
       technologies: ['React', 'Node.js', 'MongoDB', 'Stripe'],
-      image: '/project1.jpg',
+      image: '/screen.png',
       liveUrl: '#',
       githubUrl: 'https://github.com/Tarun-22/mini-project'
     },
@@ -12,7 +12,7 @@ export default function Projects() {
       title: 'E-Commerce Website',
       description: 'A collaborative project management tool with real-time updates',
       technologies: ['Vue.js', 'Express.js', 'Socket.io', 'PostgreSQL'],
-      image: '/project2.jpg',
+      image: '/e com.png',
       liveUrl: '#',
       githubUrl: 'https://github.com/Tarun-22/EMarting'
     },
@@ -20,9 +20,17 @@ export default function Projects() {
       title: 'Portfolio Website',
       description: 'A responsive portfolio website with modern design',
       technologies: ['Next.js', 'TypeScript', 'Tailwind CSS'],
-      image: '/project3.jpg',
+      image: '/port.png',
       liveUrl: '#',
-      githubUrl: '#'
+      githubUrl: 'https://github.com/Tarun-22/my-work'
+    },
+    {
+      title: 'Resume Match',
+      description: 'An Android application for matching resumes with job descriptions.',
+      technologies: ['Android Studio', 'Java'],
+      image: '/resume.png',
+      liveUrl: '#',
+      githubUrl: 'https://github.com/Tarun-22/resumematch'
     }
   ]
 
@@ -41,9 +49,7 @@ export default function Projects() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => (
             <div key={index} className="glass-effect rounded-xl overflow-hidden hover:bg-slate-800/40 hover:border-sky-400/40 transition-all duration-300 group">
-              <div className="h-48 bg-gradient-to-br from-sky-500 to-blue-600 flex items-center justify-center">
-                <span className="text-white text-lg font-medium">Project Image</span>
-              </div>
+              <img src={project.image} alt={project.title} className="h-48 w-full object-cover" />
               
               <div className="p-6">
                 <h3 className="text-xl font-semibold text-white mb-3">
