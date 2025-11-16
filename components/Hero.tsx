@@ -2,6 +2,8 @@ export default function Hero() {
   return (
     <section id="home" className="min-h-screen flex items-center justify-center pt-16">
       <div className="text-center px-4 max-w-4xl mx-auto">
+        {/* Profile Picture */}
+
         {/* Main heading */}
         <h1 className="text-3xl md:text-5xl font-bold mb-6 italic text-center">
           Hi, I'm <span className="text-white">Tarun Kumar Rudrabhatla</span>

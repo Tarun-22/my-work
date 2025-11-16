@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef } from 'react';
+import Image from 'next/image';
 
 export default function AboutMe() {
   const timelineRef = useRef<HTMLDivElement>(null);
@@ -92,10 +93,28 @@ export default function AboutMe() {
       {/* Content */}
       <div className="relative max-w-6xl mx-auto z-10">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
-          <p className="text-gray-400 text-lg max-w-2xl mx-auto text-justify italic">
-            I am a graduate student interested in both data analytics and software development. I love working with data, discovering patterns, and developing applications that actually help people. I enjoy solving problems and learning new technologies along the way. I am always looking for opportunities to grow and apply my knowledge in real projects.
-          </p>
+          <h2 className="text-4xl font-bold text-white mb-8">About Me</h2>
+          
+          {/* Image and Text Side by Side */}
+          <div className="flex flex-col md:flex-row items-center justify-center gap-8 max-w-4xl mx-auto">
+            {/* Profile Image */}
+            <div className="relative w-48 h-48 flex-shrink-0">
+              <Image 
+                src="/profile.png" 
+                alt="Tarun Kumar Rudrabhatla" 
+                width={192}
+                height={192}
+                className="w-48 h-48 rounded-full object-cover border-4 border-gray-300 shadow-2xl shadow-gray-500/30 transition-all duration-300 hover:scale-105 hover:shadow-gray-500/50"
+                priority
+              />
+              <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-gray-300/20 to-transparent pointer-events-none"></div>
+            </div>
+            
+            {/* Text Content */}
+            <p className="text-gray-400 text-lg text-justify italic flex-1">
+              I am a graduate student interested in both data analytics and software development. I love working with data, discovering patterns, and developing applications that actually help people. I enjoy solving problems and learning new technologies along the way. I am always looking for opportunities to grow and apply my knowledge in real projects.
+            </p>
+          </div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">

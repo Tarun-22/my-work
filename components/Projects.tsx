@@ -1,7 +1,7 @@
 export default function Projects() {
   const projects = [
     {
-      title: 'Machine Learning Final Project',
+      title: 'Machine Learning Project',
       description: 'A comprehensive machine learning analysis project implementing various supervised and unsupervised learning techniques on crowd datasets, including data preprocessing, model training, and performance evaluation.',
       technologies: ['Python', 'Jupyter Notebook', 'Machine Learning', 'Data Science', 'Pandas', 'Scikit-learn'],
       image: '/machine .jpeg',
