@@ -1,6 +1,22 @@
 export default function Projects() {
   const projects = [
     {
+      title: 'Machine Learning Final Project',
+      description: 'A comprehensive machine learning analysis project implementing various supervised and unsupervised learning techniques on crowd datasets, including data preprocessing, model training, and performance evaluation.',
+      technologies: ['Python', 'Jupyter Notebook', 'Machine Learning', 'Data Science', 'Pandas', 'Scikit-learn'],
+      image: '/machine .jpeg',
+      liveUrl: '#',
+      githubUrl: 'https://github.com/Tarun-22/machine-learning-project'
+    },
+    {
+      title: 'Personality-Aware Product Recommendation System',
+      description: 'A Django-based web application that provides personalized product recommendations by analyzing user interests and personality traits through meta-path discovery techniques.',
+      technologies: ['Django', 'Python', 'HTML', 'PostgreSQL', 'Machine Learning'],
+      image: '/recommendation.jpg',
+      liveUrl: '#',
+      githubUrl: 'https://github.com/Tarun-22/personality-aware-product-recommendation-system'
+    },
+    {
       title: 'Geek Connekt',
       description: 'A full-stack e-commerce solution built with React and Node.js',
       technologies: ['React', 'Node.js', 'MongoDB', 'Stripe'],

@@ -1,6 +1,6 @@
 export default function Skills() {
   const skills = [
-    { category: 'Programming Languages', items: ['Python', 'JavaScript', 'Java', 'C'] },
+    { category: 'Programming Languages', items: ['Python', 'React.js', 'Java', 'C'] },
     { category: 'Backend', items: ['Django', 'PostgreSQL', 'MySQL', 'REST API', 'Flask'] },
     { category: 'Tools', items: ['Github', 'Docker', 'AWS', 'Figma', 'VS Code'] },
   ]

@@ -29,7 +29,7 @@ export default function Contact() {
             Let's Connect
           </h2>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-            Feel free to reach out for collaborations or just a friendly hello
+            Open to collaboration and new opportunities. Feel free to reach out!
           </p>
         </div>
 

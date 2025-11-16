@@ -8,14 +8,7 @@ export default function Hero() {
         </h1>
         
         {/* Subtitle */}
-        <h2 className="text-xl md:text-2xl text-gray-300 mb-8 text-center">
-          Data Analyst
-        </h2>
         
-        {/* Description */}
-        <p className="text-lg md:text-xl text-gray-400 mb-12 max-w-3xl mx-auto leading-relaxed text-center">
-          I turn raw data into valuable stories that drive smarter decisions. Always exploring new analytical methods and tools to improve data accuracy and usability.
-        </p>
         
         {/* Action buttons */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
